@@ -29,6 +29,7 @@ namespace TGPGame
 		{
 			// Set up the graphics system
 			graphics = new GraphicsContext ();
+			Console.WriteLine("Init called");
 		}
 
 		public static void Update ()
