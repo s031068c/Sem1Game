@@ -1,8 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TGPGame\AppMain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TGPGame\Player.cs">
     <Files>
-      <File FileName="TGPGame\AppMain.cs" Line="10" Column="1" />
+      <File FileName="TGPGame\app.xml" Line="1" Column="1" />
+      <File FileName="TGPGame\AppMain.cs" Line="35" Column="15" />
+      <File FileName="TGPGame\Background.cs" Line="36" Column="10" />
+      <File FileName="TGPGame\Obstacle.cs" Line="45" Column="22" />
+      <File FileName="TGPGame\Player.cs" Line="32" Column="11" />
+      <File FileName="TGPGame\shaders\Texture.fcg" Line="1" Column="1" />
+      <File FileName="TGPGame\shaders\Texture.vcg" Line="1" Column="1" />
+      <File FileName="TGPGame\shaders\Simple.vcg" Line="1" Column="1" />
+      <File FileName="TGPGame\shaders\Simple.fcg" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

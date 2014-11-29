@@ -39,13 +39,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppMain.cs" />
+    <Compile Include="Background.cs" />
+    <Compile Include="Obstacle.cs" />
+    <Compile Include="Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <ShaderProgram Include="shaders\Simple.fcg" />
     <ShaderProgram Include="shaders\Simple.vcg" />
+    <ShaderProgram Include="shaders\Texture.fcg" />
+    <ShaderProgram Include="shaders\Texture.vcg" />
   </ItemGroup>
   <ItemGroup>
     <PsmMetadata Include="app.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="textures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="textures\background.png" />
+    <Content Include="textures\bottom.png" />
+    <Content Include="textures\egg.png" />
+    <Content Include="textures\foreground.png" />
+    <Content Include="textures\log.png" />
+    <Content Include="textures\top.png" />
+    <Content Include="textures\top2.png" />
+    <Content Include="textures\background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\Thumbs.db" />
+  </ItemGroup>
 </Project>
